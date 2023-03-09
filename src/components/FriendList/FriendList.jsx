@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
+import { List } from './FriendList.steled';
 export const FriendList = ({ children }) => {
-  return <ul className="friend-list">{children}</ul>;
+  return <List>{children}</List>;
 };
 FriendList.propTypes = {
   children: PropTypes.node,
